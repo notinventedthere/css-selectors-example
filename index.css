@@ -1,0 +1,47 @@
+article#main {
+    font-size: 120%;
+}
+
+h1.fancy {
+    font-style: italic;
+}
+
+h1, h2 {
+    color: darkslateblue;
+}
+
+article > section {
+    padding: 2em !important;
+}
+
+section#importantexample {
+    padding: 4em;
+}
+
+aside section {
+    background-color: rgb(242, 242, 255);
+}
+
+section:first-letter {
+    font-size: 120%;
+}
+
+a + a {
+    margin: 0.5em;
+}
+
+a ~ a {
+    color: slategray;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a[href="#"] {
+    text-decoration-style: dashed;
+}
+
+a:hover {
+    text-decoration-style: solid;
+}
